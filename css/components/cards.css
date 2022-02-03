@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Julius+Sans+One&family=Mulish:wght@900&family=Nanum+Pen+Script&family=Overpass:wght@300&family=Pacifico&family=Paytone+One&family=Poppins:wght@100&family=Sriracha&family=Titan+One&family=Varela+Round&family=Work+Sans:wght@100&family=Yellowtail&display=swap');
+
+.main {
+  font-weight: lighter;
+  font-size: 15px;
+  margin: 30px;
+  text-align: center;
+  color:rgb(102, 102, 102);
+  display: block;
+}
+
+.main h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 350px;
+  height: 300px;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 100px;
+  transition: transform .3s;
+}
+
+.card h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  border-radius: 10px;
+  width:  300px;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}

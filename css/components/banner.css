@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Julius+Sans+One&family=Nanum+Pen+Script&family=Overpass:wght@300&family=Pacifico&family=Paytone+One&family=Sriracha&family=Titan+One&display=swap');
+.banner {
+  background: linear-gradient(180deg,rgba(0,0,0,.8),transparent 80%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.4)) , url('images/su-san-lee-g3PyXO4A0yc-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+
+.banner-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 70px;
+  font-weight: bold;
+  margin: auto;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.banner p {
+  font-family: 'Overpass', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  margin: auto;
+  padding-bottom: 40px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.btn-learn {
+  display:inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+  border: 1px solid rgba(0, 8, 1, 0.2);
+  padding: 20px 30px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+  color: rgb(25, 175, 50);
+}
+
+.btn-learn:hover {
+  background-color: rgb(149, 192, 141);
+  color: white;
+}
